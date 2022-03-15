@@ -53,6 +53,19 @@ margin-top: 20px;
 
 /*Animacion*/
 
+@-webkit-keyframes rotate {
+    from { -webkit-transform: rotate(0deg) }
+    to { -webkit-transform: rotate(360deg) } 
+    
+}
+
+
+.brand {
+display: inline-block;
+animation:rotate 7s  infinite;
+animation-timing-function: cubic-bezier(0,0,.0,0);
+}
+
 
 .colormain{
     background-color:pink;
