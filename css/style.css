@@ -48,12 +48,15 @@ margin-top: 20px;
 
 /*Animacion*/
 
+<<<<<<< HEAD
 @-webkit-keyframes rotate {
     from { -webkit-transform: rotate(0deg) }
     to { -webkit-transform: rotate(360deg) } 
 }
 
 
+=======
+>>>>>>> 0d86005baa583634ae10b835ada7ad094ed2e346
 
 .colormain{
     background-color:pink;
@@ -215,4 +218,3 @@ container-texto {
     height:400px;
     object-fit: cover;
 }
-
