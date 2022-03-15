@@ -15,6 +15,11 @@ a:hover{
     color:#F4EBEB;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 nav
 {
     background-color:pink;
