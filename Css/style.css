@@ -51,7 +51,10 @@ nav ul li {
 /* INDEX */
 
 .titulo {
+    font-size:5em;
     padding-top: 1rem;
+    text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+    0px -4px 10px rgba(255,255,255,0.3);
 }
 
 /* <!-- CAROUSEL --> */
@@ -86,8 +89,19 @@ padding: 2rem;
     color: #d5d5d5;
 }
 
-
+.horizon {
+    border-bottom: 4px solid green;
+    width: 50%;
+margin-left: auto;
+margin-right: auto;
+}
 /* STAFF */
+
+.img-staff  , .img-index {
+    border: 5px solid #555;
+    font: size 4em;
+}
+
 
 .contenedor-card {
     width: 100%;
@@ -128,6 +142,8 @@ padding: 2rem;
     box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
     transform: translateY(-3%);}
 footer {
+    text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+    0px -4px 10px rgba(255,255,255,0.3);
     color: #d5d5d5;
     padding-top: 2rem;
      text-align:center;
