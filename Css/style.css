@@ -48,6 +48,8 @@ nav ul li {
     font-size: 1.3rem;
 }
 
+/* INDEX */
+
 .titulo {
     padding-top: 1rem;
 }
@@ -84,6 +86,47 @@ padding: 2rem;
     color: #d5d5d5;
 }
 
+
+/* STAFF */
+
+.contenedor-card {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.card {
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    text-align: center;
+    text-decoration: bold;
+    
+}
+
+
+
+.card-color3{
+    background: rgb(195,219,223);
+    background: linear-gradient(90deg, rgba(195,219,223,0.9472163865546218) 46%, rgba(16,196,218,0.8827906162464986) 100%);
+}
+
+.card-color1 {
+    background: rgb(212,212,18);
+    background: linear-gradient(90deg, rgba(212,212,18,0.12088585434173671) 58%, rgba(171,172,25,0.8827906162464986) 100%);
+}
+
+.card-color2{
+    background: rgb(195,223,198);
+    background: linear-gradient(90deg, rgba(195,223,198,0.9472163865546218) 46%, rgba(16,218,32,0.8827906162464986) 100%);
+
+    
+}
+
+.card:hover {
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);}
 footer {
     color: #d5d5d5;
     padding-top: 2rem;

@@ -6,21 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cimed Medicare</title>
+    <!-- FONT AWESOME -->
+    <script src="https://use.fontawesome.com/0e52eef4d6.js"></script>
     <!-- Css Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
     <!-- Css propio -->
     <link rel="stylesheet" href="Css/style.css">
+
     <!--Tipografia-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@100;300;500&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
+        <!-- NAV BAR -->
         <nav class=" nav navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <a class="navbar-brand me-auto " href="index.html"><img class="logo" src="IMGS/brand.png" width="75"
@@ -36,16 +38,16 @@
                             <a aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a  aria-current="page" href="services.html">Services</a>
+                            <a aria-current="page" href="services.html">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a  aria-current="page" href="equipment.html">Equipment</a>
+                            <a aria-current="page" href="equipment.html">Equipment</a>
                         </li>
                         <li class="nav-item">
-                            <a  aria-current="page" href="staff.html">Staff</a>
+                            <a aria-current="page" href="staff.html">Staff</a>
                         </li>
                         <li class="nav-item">
-                            <a  aria-current="page" href="aboutus.html">About Us</a>
+                            <a aria-current="page" href="aboutus.html">About Us</a>
                         </li>
                     </ul>
 
@@ -55,42 +57,82 @@
     </header>
 
     <main>
-        <div class="logoprincipal">
-            <img src="IMGS/cimed3.jpg"  alt="logo cimed">
-        </div>
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h2 class="titulo">Meet our Staff</h2>
+                    <p>
+                        The talent, expertise, commitment and diversity of our leadership is one of our greatest
+                        strengths.
+
+                        Their principles enable us to navigate the complexities of modern healthcare delivery without
+                        ever losing sight of the reason for our existence: To make healthcare a fundamental right
+                        available to all.
+                    </p>
+                    <img src="IMGS/doctors.jpg" class="img-fluid" width="900px" alt="doctores">
+                    <hr>
+
+                    <!-- CARDS -->
+                    <div class="contenedor-card">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="IMGS/medicornm.jpeg" alt="Card image cap">
+                            <div class="card-body  card-color1">
+                                <h5 class="card-title">Shana Hawkins</h5>
+                                <p class="card-text">MRI Especialist</p>
+                                <a href="#" class="btn btn-outline-warning">Read more</a>
+                            </div>
+                        </div>
+                        <div class="card card-color2 " style="width: 18rem;">
+                            <img class="card-img-top" src="IMGS/medicorx.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Carly Pierce</h5>
+                                <p class="card-text">RX Especialist</p>
+                                <a href="#" class="btn btn-outline-success">Read More</a>
+                            </div>
+                        </div>
+                        <div class="card card-color3" style="width: 18rem;">
+                            <img class="card-img-top" src="IMGS/medicoct.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Gina Clarke</h5>
+                                <p class="card-text">CT Especialist</p>
+                                <a href="#" class="btn btn-outline-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+
     </main>
 
+    <!-- FOOTER -->
+
     <footer class="fondo-footer">
-        <div>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero enim consectetur cumque at repudiandae.
-                Doloribus est, iste ut debitis facere molestias nam, iure architecto veniam beatae commodi vel
-                perspiciatis
-                nostrum?
-            </p>
-        </div>
-        <div>
-            <ul>
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">Youtube</a></li>
-                <li><a href="#">Facebook</a></li>
-            </ul>
-        </div>
-        <div>
-            <div>
-                <h2>Work With us</h2>
-            </div>
-            <div class="formulario-cv">
-                <form action="/action_page.php">
-                    <input type="text" id="fname" name="fname" value="Name"><br>
-                    <input type="text" id="lname" name="lname" value="Email"><br><br>
-                    <button type="button">CV</button>
-                    <button type="button">Send</button>
-                </form>
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h3>Contact Us</h3>
+                    <p>E-mail:health@medicare</p>
+                    <p> Phone Number:2525-555-4152</p>
+                    <p>Address:East South Hampton 2552</p>
+                </div>
+                <div class="col-md-4">
+                    <hr class="hr">
+                    <h3>Our Hours</h3>
+                    <p>Monday - Friday: 8am - 8pm</p>
+                    <p>Saturday: 8am - 1pm</p>
+                    <p>Sunday: Closed</p>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h3>Quality Assurance</h3>
+                    <img src="IMGS/iram.png" width="100px" class="quality" alt="Iram">
+                    <img src="IMGS/iram2.png" width="100px" class="quality" alt="Iram2">
+                    <img src="IMGS/cenas.png" width="100px" class="quality" alt="cenas">
+                </div>
+
             </div>
         </div>
     </footer>
-
 
 
 
