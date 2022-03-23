@@ -30,6 +30,22 @@ main {
     background-color:pink;
 }
 
+/* ANIMACION BRAND */
+
+@-webkit-keyframes rotate {
+    from { -webkit-transform: rotate(0deg) }
+    to { -webkit-transform: rotate(360deg) } 
+    
+}
+
+.logo {
+    padding-top: 6px;
+display: inline-block;
+animation:rotate 2s  infinite;
+animation-timing-function: cubic-bezier(0,0,.0,0);
+}
+
+
 nav
 {
     background-color:#458882;
@@ -97,11 +113,20 @@ margin-right: auto;
 }
 /* STAFF */
 
-.img-staff  , .img-index {
-    border: 5px solid #555;
-    font: size 4em;
+
+.staff-titulos {
+    font-size:bold;
 }
 
+.img-staff  , .img-index {
+    border: 5px solid white;
+    font: size 4em;
+}
+.img-fluid {
+    border: 5px solid white;
+}
+
+/* CARDS */
 
 .contenedor-card {
     width: 100%;
@@ -119,7 +144,6 @@ margin-right: auto;
     
     
 }
-
 
 
 .card-color3{
@@ -142,6 +166,16 @@ margin-right: auto;
 .card:hover {
     box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
     transform: translateY(-3%);}
+
+
+.card-mri {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}    
+
+/* FOOTER */
+
 footer {
     text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
     0px -4px 10px rgba(255,255,255,0.3);
@@ -157,18 +191,3 @@ hr  {
      
 
 }
-
-    @-webkit-keyframes rotate {
-        from { -webkit-transform: rotate(0deg) }
-        to { -webkit-transform: rotate(360deg) } 
-        
-    }
-    
-    .logo {
-        padding-top: 6px;
-    display: inline-block;
-    animation:rotate 2s  infinite;
-    animation-timing-function: cubic-bezier(0,0,.0,0);
-    }
-
-    
