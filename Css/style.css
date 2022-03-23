@@ -69,7 +69,7 @@ nav ul li {
 .titulo {
     font-size:5em;
     padding-top: 1rem;
-    text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+    text-shadow: 2px 7px 5px 
     0px -4px 10px rgba(255,255,255,0.3);
 }
 
@@ -165,14 +165,7 @@ margin-right: auto;
 
 .card:hover {
     box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
-    transform: translateY(-3%);}
-
-
-.card-mri {
-    display: flex;
-    justify-content:space-evenly;
-    align-items: center;
-}    
+    transform: translateY(-3%);} 
 
 /* FOOTER */
 
